@@ -44,7 +44,7 @@ Docker image with [cargo-ndk], [Android NDK] and Rust targets for building Rust 
 ## How to use this Docker image
 
 ```bash
-docker run --rm -v '/some/rust/project:/app' cargo ndk -o /app/jniLibs build instrumentisto/rust-ndk-builder
+docker run --rm -v '/some/rust/project:/app' instrumentisto/rust-ndk-builder cargo ndk -o /app/jniLibs build
 ```
 
 After that you will see `jniLibs` folder with libraries for all supported by Android targets.
