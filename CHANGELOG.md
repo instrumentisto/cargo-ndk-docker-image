@@ -1,7 +1,19 @@
-cagon-ndk image changelog
+cargo-ndk image changelog
 =========================
 
 All user visible changes to this project will be documented in this file. This project uses [Semantic Versioning 2.0.0].
+
+
+
+
+## [2.2.0-ndkr22b-rust1.51-r0] · 2021-04-06
+[2.2.0-ndkr22b-rust1.51-r0]: /../../tree/2.2.0-ndkr22b-rust1.51-r0
+
+[Diff](/../../compare/2.2.0-ndkr21e-rust1.51-r0...2.2.0-ndkr22b-rust1.51-r0)
+
+### Upgraded
+
+- [Android NDK] r22b: <https://github.com/android/ndk/wiki/Changelog-r22#r22b>
 
 
 
