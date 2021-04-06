@@ -17,19 +17,25 @@ eq = $(if $(or $(1),$(2)),$(and $(findstring $(1),$(2)),\
 
 ANDROID_NDK_VER ?= $(strip \
 	$(shell grep 'ARG android_ndk_ver=' Dockerfile | cut -d '=' -f2))
+CARGO_NDK_VER ?= $(strip \
+	$(shell grep 'ARG cargo_ndk_ver=' Dockerfile | cut -d '=' -f2))
+RUST_VER ?= $(strip \
+	$(shell grep 'ARG rust_ver=' Dockerfile | cut -d '=' -f2))
+BUILD_REV ?= $(strip \
+	$(shell grep 'ARG build_rev=' Dockerfile | cut -d '=' -f2))
 
 NAMESPACES := instrumentisto \
               ghcr.io/instrumentisto \
               quay.io/instrumentisto
-NAME := rust-ndk-builder
-TAGS ?= $(ANDROID_NDK_VER)-r$(BUILD_REV) \
-        $(ANDROID_NDK_VER)-r$(BUILD_REV)-debian-slim-buster \
-        $(ANDROID_NDK_VER)-r$(BUILD_REV)-debian \
-        $(ANDROID_NDK_VER) \
-        $(ANDROID_NDK_VER)-debian-slim-buster \
-        $(ANDROID_NDK_VER)-debian \
-        debian-slim-buster \
-        debian \
+NAME := cargo-ndk
+TAGS ?= $(CARGO_NDK_VER)-ndk$(ANDROID_NDK_VER)-rust$(RUST_VER)-r$(BUILD_REV) \
+        $(CARGO_NDK_VER)-ndk$(ANDROID_NDK_VER)-rust$(RUST_VER) \
+        $(CARGO_NDK_VER)-ndk$(ANDROID_NDK_VER) \
+        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1,2))-ndk$(ANDROID_NDK_VER) \
+        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1))-ndk$(ANDROID_NDK_VER) \
+        $(CARGO_NDK_VER) \
+        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1,2)) \
+        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1)) \
         latest
 VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 
@@ -68,12 +74,16 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 # Usage:
 #	make docker.image [tag=($(VERSION)|<docker-tag>)]] [no-cache=(no|yes)]
 #	                  [ANDROID_NDK_VER=<android-ndk-version>]
+#	                  [CARGO_NDK_VER=<cargo-ndk-version>]
+#	                  [RUST_VER=<rust-version>]
 #	                  [BUILD_REV=<build-revision>]
 
 docker.image:
 	docker build --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
 		--build-arg android_ndk_ver=$(ANDROID_NDK_VER) \
+		--build-arg cargo_ndk_ver=$(CARGO_NDK_VER) \
+		--build-arg rust_ver=$(RUST_VER) \
 		--build-arg build_rev=$(BUILD_REV) \
 		-t instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
 
