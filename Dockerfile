@@ -4,7 +4,7 @@ FROM rust:${rust_ver}-slim-buster
 
 ARG android_ndk_ver=r22b
 ARG cargo_ndk_ver=2.2.0
-ARG build_rev=0
+ARG build_rev=1
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/cargo-ndk-docker-image"
@@ -22,6 +22,7 @@ RUN apt-get update \
  && apt-get upgrade -y \
  && apt-get install -y --no-install-recommends --no-install-suggests \
             ca-certificates \
+            make \
  && update-ca-certificates \
     \
  # Install installation tools

@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.2.0-ndkr22b-rust1.51-r1] · 2021-04-14
+[2.2.0-ndkr22b-rust1.51-r1]: /../../tree/2.2.0-ndkr22b-rust1.51-r1
+
+[Diff](/../../compare/2.2.0-ndkr22b-rust1.51-r0...2.2.0-ndkr22b-rust1.51-r1)
+
+### Added
+
+- [`make`] CLI tool.
+
+
+
+
 ## [2.2.0-ndkr22b-rust1.51-r0] · 2021-04-06
 [2.2.0-ndkr22b-rust1.51-r0]: /../../tree/2.2.0-ndkr22b-rust1.51-r0
 
@@ -40,3 +52,5 @@ All user visible changes to this project will be documented in this file. This p
 [cargo-ndk]: https://crates.io/crates/cargo-ndk
 [Rust]: https://www.rust-lang.org
 [Semantic Versioning 2.0.0]: https://semver.org
+
+[`make`]: https://www.gnu.org/software/make/manual/make.html
