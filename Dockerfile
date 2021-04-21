@@ -3,8 +3,8 @@ ARG rust_ver=1.51
 FROM rust:${rust_ver}-slim-buster
 
 ARG android_ndk_ver=r22b
-ARG cargo_ndk_ver=2.2.0
-ARG build_rev=1
+ARG cargo_ndk_ver=2.3.0
+ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/cargo-ndk-docker-image"
