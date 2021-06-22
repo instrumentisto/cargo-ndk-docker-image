@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/rust
-ARG rust_ver=1.51
+ARG rust_ver=1.53
 FROM rust:${rust_ver}-slim-buster
 
 ARG android_ndk_ver=r22b

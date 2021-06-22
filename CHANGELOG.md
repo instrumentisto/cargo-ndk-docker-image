@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.3.0-ndkr22b-rust1.53-r0] · 2021-06-22
+[2.3.0-ndkr22b-rust1.53-r0]: /../../tree/2.3.0-ndkr22b-rust1.53-r0
+
+[Diff](/../../compare/2.3.0-ndkr22b-rust1.51-r0...2.3.0-ndkr22b-rust1.53-r0)
+
+### Upgraded
+
+- [Rust] 1.53: <https://blog.rust-lang.org/2021/06/17/Rust-1.53.0.html>
+
+
+
+
 ## [2.3.0-ndkr22b-rust1.51-r0] · 2021-04-21
 [2.3.0-ndkr22b-rust1.51-r0]: /../../tree/2.3.0-ndkr22b-rust1.51-r0
 
