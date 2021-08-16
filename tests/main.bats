@@ -38,3 +38,10 @@
       'rustup target list --installed | grep -wq x86_64-linux-android'
     [ "$status" -eq 0 ]
 }
+
+
+@test "make is installed" {
+    run docker run --rm --entrypoint sh $IMAGE -c \
+      'which make'
+    [ "$status" -eq 0 ]
+}
