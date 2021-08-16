@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.4.1-ndkr22b-rust1.54-r1] · 2021-08-16
+[2.4.1-ndkr22b-rust1.54-r1]: /../../tree/2.4.1-ndkr22b-rust1.54-r1
+
+[Diff](/../../compare/2.4.1-ndkr22b-rust1.54-r0...2.4.1-ndkr22b-rust1.54-r1)
+
+### Upgraded
+
+- [Debian] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
+
+
+
+
 ## [2.4.1-ndkr22b-rust1.54-r0] · 2021-08-16
 [2.4.1-ndkr22b-rust1.54-r0]: /../../tree/2.4.1-ndkr22b-rust1.54-r0
 
@@ -26,6 +38,35 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - [cargo-ndk] 2.4.1: <https://github.com/bbqsrc/cargo-ndk/blob/v2.4.1/CHANGELOG.md#v241---2021-07-19>
+
+
+
+
+## [2.4.1-ndkr21e-rust1.54-r1] · 2021-08-16
+[2.4.1-ndkr21e-rust1.54-r1]: /../../tree/2.4.1-ndkr21e-rust1.54-r1
+
+[Diff](/../../compare/2.4.1-ndkr21e-rust1.54-r0...2.4.1-ndkr21e-rust1.54-r1)
+
+### Upgraded
+
+- [Debian] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
+
+
+
+
+## [2.4.1-ndkr21e-rust1.54-r0] · 2021-08-16
+[2.4.1-ndkr21e-rust1.54-r0]: /../../tree/2.4.1-ndkr21e-rust1.54-r0
+
+[Diff](/../../compare/2.2.0-ndkr21e-rust1.51-r0...2.4.1-ndkr21e-rust1.54-r0)
+
+### Added
+
+- [`make`] CLI tool.
+
+### Upgraded
+
+- [cargo-ndk] 2.4.1: <https://github.com/bbqsrc/cargo-ndk/blob/v2.4.1/CHANGELOG.md#v241---2021-07-19>
+- [Rust] 1.54: <https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html>
 
 
 
@@ -98,6 +139,7 @@ All user visible changes to this project will be documented in this file. This p
 
 [Android NDK]: https://developer.android.com/ndk
 [cargo-ndk]: https://crates.io/crates/cargo-ndk
+[Debian]: https://www.debian.org
 [Rust]: https://www.rust-lang.org
 [Semantic Versioning 2.0.0]: https://semver.org
 
