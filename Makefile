@@ -32,11 +32,7 @@ TAGS ?= $(CARGO_NDK_VER)-ndk$(ANDROID_NDK_VER)-rust$(RUST_VER)-r$(BUILD_REV) \
         $(CARGO_NDK_VER)-ndk$(ANDROID_NDK_VER)-rust$(RUST_VER) \
         $(CARGO_NDK_VER)-ndk$(ANDROID_NDK_VER) \
         $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1,2))-ndk$(ANDROID_NDK_VER) \
-        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1))-ndk$(ANDROID_NDK_VER) \
-        $(CARGO_NDK_VER) \
-        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1,2)) \
-        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1)) \
-        latest
+        $(strip $(shell echo $(CARGO_NDK_VER) | cut -d '.' -f1))-ndk$(ANDROID_NDK_VER)
 VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 
 
@@ -191,7 +187,7 @@ git.release:
 ifeq ($(shell git rev-parse $(git-release-tag) >/dev/null 2>&1 && echo "ok"),ok)
 	$(error "Git tag $(git-release-tag) already exists")
 endif
-	git tag $(git-release-tag) master
+	git tag $(git-release-tag) r21e-master
 	git push origin refs/tags/$(git-release-tag)
 
 
