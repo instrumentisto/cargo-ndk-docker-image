@@ -16,7 +16,7 @@ cargo-ndk Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`2.2.0-ndkr21e-rust1.51-r1`, `2.2.0-ndkr21e-rust1.51`, `2.2.0-ndkr21e`, `2.2-ndkr21e`, `2-ndkr21e`, `2.2.0`, `2.2`, `2`, `latest`][101]
+- [`2.4.1-ndkr21e-rust1.51-r0`, `2.4.1-ndkr21e-rust1.51`, `2.4.1-ndkr21e`, `2.4-ndkr21e`, `2-ndkr21e`, `2.4.1`, `2.4`, `2`, `latest`][101]
 
 
 
