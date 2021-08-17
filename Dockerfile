@@ -2,9 +2,9 @@
 ARG rust_ver=1.54
 FROM rust:${rust_ver}-slim-bullseye
 
-ARG android_ndk_ver=r22b
+ARG android_ndk_ver=r23
 ARG cargo_ndk_ver=2.4.1
-ARG build_rev=1
+ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/cargo-ndk-docker-image"
@@ -32,7 +32,7 @@ RUN apt-get update \
     \
  # Install NDK itself
  && curl -fL -o /tmp/android-ndk.zip \
-         https://dl.google.com/android/repository/android-ndk-${android_ndk_ver}-linux-x86_64.zip \
+         https://dl.google.com/android/repository/android-ndk-${android_ndk_ver}-linux.zip \
  && unzip /tmp/android-ndk.zip -d /usr/local/ \
     \
  # Cleanup unnecessary stuff

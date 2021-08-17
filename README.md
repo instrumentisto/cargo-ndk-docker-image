@@ -16,7 +16,8 @@ cargo-ndk Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`2.4.1-ndkr22b-rust1.54-r1`, `2.4.1-ndkr22b-rust1.54`, `2.4.1-ndkr22b`, `2.4-ndkr22b`, `2-ndkr22b`, `2.4.1`, `2.4`, `2`, `latest`][101]
+- [`2.4.1-ndkr23-rust1.54-r0`, `2.4.1-ndkr23-rust1.54`, `2.4.1-ndkr23`, `2.4-ndkr23`, `2-ndkr23`, `2.4.1`, `2.4`, `2`, `latest`][101]
+- [`2.4.1-ndkr21e-rust1.54-r1`, `2.4.1-ndkr21e-rust1.54`, `2.4.1-ndkr21e`, `2.4-ndkr21e`, `2-ndkr21e`][102]
 
 
 
@@ -135,3 +136,4 @@ If you have any problems with or questions about this image, please contact us t
 [6]: https://github.com/bbqsrc/cargo-ndk/blob/main/LICENSE-MIT
 
 [101]: https://github.com/instrumentisto/cargo-ndk-docker-image/blob/master/Dockerfile
+[102]: https://github.com/instrumentisto/cargo-ndk-docker-image/blob/r21e-master/Dockerfile
