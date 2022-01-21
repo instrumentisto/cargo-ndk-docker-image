@@ -1,10 +1,10 @@
 # https://hub.docker.com/_/rust
 ARG rust_ver=1.58
-FROM rust:${rust_ver}-slim-bullseye
+FROM rust:${rust_ver}.1-slim-bullseye
 
 ARG android_ndk_ver=r23b
 ARG cargo_ndk_ver=2.5.0
-ARG build_rev=0
+ARG build_rev=1
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/cargo-ndk-docker-image"
