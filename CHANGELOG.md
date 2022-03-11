@@ -6,6 +6,19 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.6.0-ndkr23b-rust1.59-r0] · 2022-03-11
+[2.6.0-ndkr23b-rust1.59-r0]: /../../tree/2.6.0-ndkr23b-rust1.59-r0
+
+[Diff](/../../compare/2.5.0-ndkr23b-rust1.58-r1...2.6.0-ndkr23b-rust1.59-r0)
+
+### Upgraded
+
+- [cargo-ndk] 2.6.0: <https://github.com/bbqsrc/cargo-ndk/releases/tag/v2.6.0>
+- [Rust] 1.59: <https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html>
+
+
+
+
 ## [2.5.0-ndkr23b-rust1.58-r1] · 2022-01-21
 [2.5.0-ndkr23b-rust1.58-r1]: /../../tree/2.5.0-ndkr23b-rust1.58-r1
 
