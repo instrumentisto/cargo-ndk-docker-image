@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.6.0-ndkr24-rust1.59-r0] · 2022-03-18
+[2.6.0-ndkr24-rust1.59-r0]: /../../tree/2.6.0-ndkr24-rust1.59-r0
+
+[Diff](/../../compare/2.6.0-ndkr23b-rust1.59-r0...2.6.0-ndkr24-rust1.59-r0)
+
+### Upgraded
+
+- [Android NDK] r24: <https://github.com/android/ndk/wiki/Changelog-r24#changes>
+
+
+
+
 ## [2.6.0-ndkr23b-rust1.59-r0] · 2022-03-11
 [2.6.0-ndkr23b-rust1.59-r0]: /../../tree/2.6.0-ndkr23b-rust1.59-r0
 
