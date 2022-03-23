@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.7.0-ndkr24-rust1.59-r0] · 2022-03-23
+[2.7.0-ndkr24-rust1.59-r0]: /../../tree/2.7.0-ndkr24-rust1.59-r0
+
+[Diff](/../../compare/2.6.0-ndkr24-rust1.59-r0...2.7.0-ndkr24-rust1.59-r0)
+
+### Upgraded
+
+- [cargo-ndk] 2.7.0: <https://github.com/bbqsrc/cargo-ndk/releases/tag/v2.7.0>
+
+
+
+
 ## [2.6.0-ndkr24-rust1.59-r0] · 2022-03-18
 [2.6.0-ndkr24-rust1.59-r0]: /../../tree/2.6.0-ndkr24-rust1.59-r0
 
