@@ -6,6 +6,19 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.8.0-ndkr24-rust1.60-r0] · 2022-05-10
+[2.8.0-ndkr24-rust1.60-r0]: /../../tree/2.8.0-ndkr24-rust1.60-r0
+
+[Diff](/../../compare/2.7.0-ndkr24-rust1.59-r0...2.8.0-ndkr24-rust1.60-r0)
+
+### Upgraded
+
+- [cargo-ndk] 2.8.0: <https://github.com/bbqsrc/cargo-ndk/releases/tag/v2.8.0>
+- [Rust] 1.60: <https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html>
+
+
+
+
 ## [2.7.0-ndkr24-rust1.59-r0] · 2022-03-23
 [2.7.0-ndkr24-rust1.59-r0]: /../../tree/2.7.0-ndkr24-rust1.59-r0
 
