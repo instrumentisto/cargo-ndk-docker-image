@@ -2,14 +2,14 @@ cargo-ndk Docker image
 ======================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/cargo-ndk-docker-image "Release")](https://github.com/instrumentisto/cargo-ndk-docker-image/releases)
-[![CI](https://github.com/instrumentisto/cargo-ndk-docker-image/workflows/CI/badge.svg?branch=master "CI")](https://github.com/instrumentisto/cargo-ndk-docker-image/actions?query=workflow%3ACI+branch%3Amaster)
+[![CI](https://github.com/instrumentisto/cargo-ndk-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/cargo-ndk-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/cargo-ndk?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/cargo-ndk)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/cargo-ndk)
 | [GitHub Container Registry](https://github.com/orgs/instrumentisto/packages/container/package/cargo-ndk)
 | [Quay.io](https://quay.io/repository/instrumentisto/cargo-ndk)
 
-[Changelog](https://github.com/instrumentisto/cargo-ndk-docker-image/blob/master/CHANGELOG.md)
+[Changelog](https://github.com/instrumentisto/cargo-ndk-docker-image/blob/main/CHANGELOG.md)
 
 
 
@@ -128,10 +128,10 @@ If you have any problems with or questions about this image, please contact us t
 [Rust]: https://www.rust-lang.org
 
 [1]: https://github.com/instrumentisto/cargo-ndk-docker-image/issues
-[2]: https://github.com/instrumentisto/cargo-ndk-docker-image/blob/master/LICENSE.md
+[2]: https://github.com/instrumentisto/cargo-ndk-docker-image/blob/main/LICENSE.md
 [3]: https://github.com/instrumentisto/cargo-ndk-docker-image
 [4]: https://developer.android.com/studio/terms
 [5]: https://github.com/bbqsrc/cargo-ndk/blob/main/LICENSE-APACHE
 [6]: https://github.com/bbqsrc/cargo-ndk/blob/main/LICENSE-MIT
 
-[101]: https://github.com/instrumentisto/cargo-ndk-docker-image/blob/master/Dockerfile
+[101]: https://github.com/instrumentisto/cargo-ndk-docker-image/blob/main/Dockerfile
