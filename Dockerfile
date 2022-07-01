@@ -1,13 +1,10 @@
 # https://hub.docker.com/_/rust
-ARG rust_ver=1.61
+ARG rust_ver=1.62
 FROM rust:${rust_ver}-slim-bullseye
 
 ARG android_ndk_ver=r24
 ARG cargo_ndk_ver=2.8.0
 ARG build_rev=0
-
-LABEL org.opencontainers.image.source="\
-    https://github.com/instrumentisto/cargo-ndk-docker-image"
 
 
 # Install Rust targets for Android platforms
