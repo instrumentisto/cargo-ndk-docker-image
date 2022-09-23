@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/rust
-ARG rust_ver=1.62
+ARG rust_ver=1.64
 FROM rust:${rust_ver}-slim-bullseye
 
 ARG android_ndk_ver=r25b
