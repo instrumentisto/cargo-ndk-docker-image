@@ -367,7 +367,6 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-
 [Android NDK]: https://developer.android.com/ndk
 [cargo-ndk]: https://crates.io/crates/cargo-ndk
 [Debian]: https://www.debian.org

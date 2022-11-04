@@ -21,7 +21,7 @@ cargo-ndk Docker image
 
 
 
-## Supported targets
+## Supported [Rust] targets
 
 - `aarch64-linux-android`
 - `armv7-linux-androideabi`
@@ -60,36 +60,36 @@ After doing that you will see `jniLibs/` folder with libraries for all the suppo
 ## Image versions
 
 
-### `X`
+### `<X>`
 
-Latest tag of `X` [cargo-ndk]'s major version.
-
-
-### `X.Y`
-
-Latest tag of `X.Y` [cargo-ndk]'s minor version.
+Latest tag of the latest major `X` [cargo-ndk] version.
 
 
-### `X.Y.Z`
+### `<X.Y>`
 
-Latest tag of a concrete `X.Y` version of [cargo-ndk].
-
-
-### `ndkrA`
-
-Latest tag containing a pinned concrete `rA` version of [Android NDK].
+Latest tag of the latest minor `X.Y` [cargo-ndk] version.
 
 
-### `rustM.N`
+### `<X.Y.Z>`
 
-Latest tag containing a pinned `M.N` minor version of [Rust].
+Latest tag of the concrete `X.Y` [cargo-ndk] version.
 
 
-### `X.Y.Z-ndkrA-rustM.N-rN`
+### `ndk<rA>`
 
-Concrete `N` image revision tag of a [cargo-ndk]'s concrete `X.Y.Z` version with pinned `rA` version of [Android NDK] and pinned `M.N` version of [Rust].
+Latest tag containing the concrete `rA` [Android NDK] version.
 
-Once build, it's never updated.
+
+### `rust<B.C>`
+
+Latest tag containing the latest minor `B.C` [Rust] version.
+
+
+### `<X.Y.Z>-ndk<rA>-rust<B.C>-r<N>`
+
+Concrete `N` image revision tag of the concrete `X.Y.Z` [cargo-ndk] version with the concrete `rA` [Android NDK] version and the latest minor `B.C` [Rust] version.
+
+Once built, it's never updated.
 
 
 
@@ -113,7 +113,6 @@ The [sources][3] for producing `instrumentisto/cargo-ndk` Docker image are licen
 We can't notice comments in the [DockerHub] (or other container registries) so don't use them for reporting issue or asking question.
 
 If you have any problems with or questions about this image, please contact us through a [GitHub issue][1].
-
 
 
 
