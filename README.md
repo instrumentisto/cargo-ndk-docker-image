@@ -16,7 +16,7 @@ cargo-ndk Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`2.12.2-ndkr25b-rust1.65-r0`, `2.12.2-ndkr25b-rust1.65`, `2.12.2-ndkr25b`, `2.12-ndkr25b`, `2-ndkr25b`, `2.12.2`, `2.12`, `2`, `latest`][101]
+- [`2.12.2-ndkr25b-rust1.66-r0`, `2.12.2-ndkr25b-rust1.66`, `2.12.2-ndkr25b`, `2.12-ndkr25b`, `2-ndkr25b`, `2.12.2`, `2.12`, `2`, `latest`][101]
 
 
 
@@ -57,7 +57,7 @@ After doing that you will see `jniLibs/` folder with libraries for all the suppo
 
 
 
-## Image versions
+## Image tags
 
 
 ### `<X>`
