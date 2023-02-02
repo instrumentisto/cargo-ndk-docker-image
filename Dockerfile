@@ -3,7 +3,7 @@ ARG rust_ver=1.67
 FROM rust:${rust_ver}-slim-bullseye
 
 ARG android_ndk_ver=r25b
-ARG cargo_ndk_ver=2.12.5
+ARG cargo_ndk_ver=2.12.6
 ARG build_rev=0
 
 
