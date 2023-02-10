@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.12.6-ndkr25c-rust1.67-r1] · 2023-02-10
+[2.12.6-ndkr25c-rust1.67-r1]: /../../tree/2.12.6-ndkr25c-rust1.67-r1
+
+[Diff](/../../compare/2.12.6-ndkr25c-rust1.67-r0...2.12.6-ndkr25c-rust1.67-r1)
+
+### Upgraded
+
+- [Rust] 1.67.1: <https://blog.rust-lang.org/2023/02/09/Rust-1.67.1.html>
+
+
+
+
 ## [2.12.6-ndkr25c-rust1.67-r0] · 2023-02-02
 [2.12.6-ndkr25c-rust1.67-r0]: /../../tree/2.12.6-ndkr25c-rust1.67-r0
 
