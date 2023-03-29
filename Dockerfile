@@ -4,7 +4,7 @@ FROM rust:${rust_ver}-slim-bullseye
 
 ARG android_ndk_ver=r25c
 ARG cargo_ndk_ver=3.0.1
-ARG build_rev=0
+ARG build_rev=1
 
 
 # Install Rust targets for Android platforms
