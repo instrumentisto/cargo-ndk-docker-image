@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.0.1-ndkr25c-rust1.68-r0] · 2023-04-21
+[3.0.1-ndkr25c-rust1.68-r0]: /../../tree/3.0.1-ndkr25c-rust1.68-r0
+
+[Diff](/../../compare/3.0.1-ndkr25c-rust1.68-r1...3.0.1-ndkr25c-rust1.68-r0)
+
+### Upgraded
+
+- [Rust] 1.69.0: <https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html>
+
+### Security updated
+
+- [Debian Linux] "bullseye" 20230411: <https://github.com/docker-library/official-images/commit/7697552ea03fcfa76ac2482c8a8ccfb2b594d545>
+
+
+
+
 ## [3.0.1-ndkr25c-rust1.68-r1] · 2023-03-29
 [3.0.1-ndkr25c-rust1.68-r1]: /../../tree/3.0.1-ndkr25c-rust1.68-r1
 
@@ -412,7 +428,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Debian] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
+- [Debian Linux] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
 
 
 
@@ -448,7 +464,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Debian] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
+- [Debian Linux] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
 
 
 
@@ -537,7 +553,7 @@ All user visible changes to this project will be documented in this file. This p
 
 [Android NDK]: https://developer.android.com/ndk
 [cargo-ndk]: https://crates.io/crates/cargo-ndk
-[Debian]: https://www.debian.org
+[Debian Linux]: https://www.debian.org
 [Rust]: https://www.rust-lang.org
 [Semantic Versioning 2.0.0]: https://semver.org
 
