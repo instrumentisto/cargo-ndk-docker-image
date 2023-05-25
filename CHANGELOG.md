@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.2.0-ndkr25c-rust1.69-r0] · 2023-05-25
+[3.2.0-ndkr25c-rust1.69-r0]: /../../tree/3.2.0-ndkr25c-rust1.69-r0
+
+[Diff](/../../compare/3.1.2-ndkr25c-rust1.69-r0...3.2.0-ndkr25c-rust1.69-r0)
+
+### Upgraded
+
+- [cargo-ndk] 3.2.0: <https://github.com/bbqsrc/cargo-ndk/blob/v3.2.0/CHANGELOG.md#v320---2023-05-24>
+
+### Security updated
+
+- [Debian Linux] "bullseye" 20230522: <https://github.com/docker-library/official-images/commit/badf7465a9a7427b81ca2249e7f40da340285612>
+
+
+
+
 ## [3.1.2-ndkr25c-rust1.69-r0] · 2023-05-15
 [3.1.2-ndkr25c-rust1.69-r0]: /../../tree/3.1.2-ndkr25c-rust1.69-r0
 
