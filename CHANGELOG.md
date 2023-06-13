@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.2.0-ndkr25c-rust1.70-r1] · 2023-06-13
+[3.2.0-ndkr25c-rust1.70-r1]: /../../tree/3.2.0-ndkr25c-rust1.70-r1
+
+[Diff](/../../compare/3.2.0-ndkr25c-rust1.70-r0...3.2.0-ndkr25c-rust1.70-r1)
+
+### Upgraded
+
+- [Debian Linux] "bookworm": <https://www.debian.org/releases/bookworm>
+
+
+
+
 ## [3.2.0-ndkr25c-rust1.70-r0] · 2023-06-05
 [3.2.0-ndkr25c-rust1.70-r0]: /../../tree/3.2.0-ndkr25c-rust1.70-r0
 
