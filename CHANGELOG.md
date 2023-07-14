@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.2.0-ndkr25c-rust1.71-r0] · 2023-07-14
+[3.2.0-ndkr25c-rust1.71-r0]: /../../tree/3.2.0-ndkr25c-rust1.71-r0
+
+[Diff](/../../compare/3.2.0-ndkr25c-rust1.70-r1...3.2.0-ndkr25c-rust1.71-r0)
+
+### Upgraded
+
+- [Rust] 1.71.0: <https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html>
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20230703: <https://github.com/docker-library/official-images/commit/45063adce859cda08c2c53cc33c612776548cf61>
+
+
+
+
 ## [3.2.0-ndkr25c-rust1.70-r1] · 2023-06-13
 [3.2.0-ndkr25c-rust1.70-r1]: /../../tree/3.2.0-ndkr25c-rust1.70-r1
 
