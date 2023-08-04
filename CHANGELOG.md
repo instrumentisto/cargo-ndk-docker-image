@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.2.1-ndkr25c-rust1.71-r1] · 2023-08-04
+[3.2.1-ndkr25c-rust1.71-r1]: /../../tree/3.2.1-ndkr25c-rust1.71-r1
+
+[Diff](/../../compare/3.2.1-ndkr25c-rust1.71-r0...3.2.1-ndkr25c-rust1.71-r1)
+
+### Upgraded
+
+- [Rust] 1.71.1: <https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html>
+
+
+
+
 ## [3.2.1-ndkr25c-rust1.71-r0] · 2023-08-02
 [3.2.1-ndkr25c-rust1.71-r0]: /../../tree/3.2.1-ndkr25c-rust1.71-r0
 
