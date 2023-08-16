@@ -3,8 +3,8 @@ ARG rust_ver=1.71
 FROM rust:${rust_ver}-slim-bookworm
 
 ARG android_ndk_ver=r25c
-ARG cargo_ndk_ver=3.2.1
-ARG build_rev=1
+ARG cargo_ndk_ver=3.2.2
+ARG build_rev=0
 
 
 # Install Rust targets for Android platforms
