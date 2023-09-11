@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.3.0-ndkr25c-rust1.72-r0] · 2023-08-??
+[3.3.0-ndkr25c-rust1.72-r0]: /../../tree/3.3.0-ndkr25c-rust1.72-r0
+
+[Diff](/../../compare/3.3.0-ndkr25c-rust1.72-r0...)
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20230904: <https://github.com/docker-library/official-images/commit/33b80d7fe4aeab3a9ebf93abe8eb68eb8df29a7b>
+
+
+
+
 ## [3.3.0-ndkr25c-rust1.72-r0] · 2023-08-25
 [3.3.0-ndkr25c-rust1.72-r0]: /../../tree/3.3.0-ndkr25c-rust1.72-r0
 
