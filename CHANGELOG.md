@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.4.0-ndkr26-rust1.72-r0] · 2023-09-25
+[3.4.0-ndkr26-rust1.72-r0]: /../../tree/3.4.0-ndkr26-rust1.72-r0
+
+[Diff](/../../compare/3.3.0-ndkr26-rust1.72-r0...3.4.0-ndkr26-rust1.72-r0)
+
+### Upgraded
+
+- [cargo-ndk] 3.4.0: <https://github.com/bbqsrc/cargo-ndk/blob/v3.4.0/CHANGELOG.md#v340---2023-09-23>
+
+
+
+
 ## [3.3.0-ndkr26-rust1.72-r0] · 2023-09-20
 [3.3.0-ndkr26-rust1.72-r0]: /../../tree/3.3.0-ndkr26-rust1.72-r0
 
