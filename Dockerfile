@@ -1,10 +1,10 @@
 # https://hub.docker.com/_/rust
-ARG rust_ver=1.74
+ARG rust_ver=1.75
 FROM rust:${rust_ver}-slim-bookworm
 
 ARG android_ndk_ver=r26b
 ARG cargo_ndk_ver=3.4.0
-ARG build_rev=1
+ARG build_rev=0
 
 
 # Install Rust targets for Android platforms
