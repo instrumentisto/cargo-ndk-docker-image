@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [3.4.0-ndkr26b-rust1.75-r0] · 2024-??-?? (unreleased)
-[3.4.0-ndkr26b-rust1.75-r0]: /../../tree/3.4.0-ndkr26b-rust1.75-r0
+## [3.4.0-ndkr26b-rust1.76-r0] · 2024-02-09
+[3.4.0-ndkr26b-rust1.76-r0]: /../../tree/3.4.0-ndkr26b-rust1.76-r0
 
-[Diff](/../../compare/3.4.0-ndkr26b-rust1.75-r0...)
+[Diff](/../../compare/3.4.0-ndkr26b-rust1.75-r0...3.4.0-ndkr26b-rust1.76-r0)
+
+### Upgraded
+
+- [Rust] 1.76.0: <https://blog.rust-lang.org/2024/02/08/Rust-1.76.0.html>
 
 ### Security updated
 
