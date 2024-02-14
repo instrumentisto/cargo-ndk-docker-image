@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.4.0-ndkr26b-rust1.76-r0] · 2024-??-?? (unreleased)
+[3.4.0-ndkr26b-rust1.76-r0]: /../../tree/3.4.0-ndkr26b-rust1.76-r0
+
+[Diff](/../../compare/3.4.0-ndkr26b-rust1.76-r0...)
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20240211 (12.5): <https://github.com/docker-library/official-images/commit/147fd00d93bf7eac5c870d0df155a810d3050b5b>
+
+
+
+
 ## [3.4.0-ndkr26b-rust1.76-r0] · 2024-02-09
 [3.4.0-ndkr26b-rust1.76-r0]: /../../tree/3.4.0-ndkr26b-rust1.76-r0
 
