@@ -6,13 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [3.4.0-ndkr26c-rust1.77-r1] · 2024-??-?? (unreleased)
-[3.4.0-ndkr26c-rust1.77-r1]: /../../tree/3.4.0-ndkr26c-rust1.77-r1
+## [3.4.0-ndkr26c-rust1.77-r2] · 2024-04-10
+[3.4.0-ndkr26c-rust1.77-r2]: /../../tree/3.4.0-ndkr26c-rust1.77-r2
 
-[Diff](/../../compare/3.4.0-ndkr26c-rust1.77-r1...)
+[Diff](/../../compare/3.4.0-ndkr26c-rust1.77-r1...3.4.0-ndkr26c-rust1.77-r2)
 
 ### Security updated
 
+- [Rust] 1.77.2: <https://blog.rust-lang.org/2024/04/09/Rust-1.77.2.html>
 - [Debian Linux] "bookworm" 20240408 (12.5): <https://github.com/docker-library/official-images/commit/6b87410113a686735d3eae520777644d3b29bec1>
 
 
