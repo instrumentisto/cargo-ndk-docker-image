@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.4.0-ndkr26d-rust1.77-r0] · 2024-04-11
+[3.4.0-ndkr26d-rust1.77-r0]: /../../tree/3.4.0-ndkr26d-rust1.77-r0
+
+[Diff](/../../compare/3.4.0-ndkr26c-rust1.77-r2...3.4.0-ndkr26d-rust1.77-r0)
+
+### Upgraded
+
+- [Android NDK] r26d: <https://github.com/android/ndk/wiki/Changelog-r26#r26d>
+
+
+
+
 ## [3.4.0-ndkr26c-rust1.77-r2] · 2024-04-10
 [3.4.0-ndkr26c-rust1.77-r2]: /../../tree/3.4.0-ndkr26c-rust1.77-r2
 
@@ -54,7 +66,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Android NDK] r26b: <https://github.com/android/ndk/wiki/Changelog-r26#r26c>
+- [Android NDK] r26c: <https://github.com/android/ndk/wiki/Changelog-r26#r26c>
 
 ### Security updated
 
