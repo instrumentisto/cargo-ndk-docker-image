@@ -6,10 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [3.5.6-ndkr26d-rust1.79-r0] · 2024-??-?? (unreleased)
-[3.5.6-ndkr26d-rust1.79-r0]: /../../tree/3.5.6-ndkr26d-rust1.79-r0
+## [3.5.4-ndkr26d-rust1.79-r0] · 2024-06-16
+[3.5.4-ndkr26d-rust1.79-r0]: /../../tree/3.5.4-ndkr26d-rust1.79-r0
 
-[Diff](/../../compare/3.5.6-ndkr26d-rust1.78-r0...3.5.6-ndkr26d-rust1.79-r0)
+[Diff](/../../compare/3.5.6-ndkr26d-rust1.78-r0...3.5.4-ndkr26d-rust1.79-r0)
+
+### Downgraded
+
+- [cargo-ndk] 3.5.4: <https://github.com/bbqsrc/cargo-ndk/blob/66f2ba4af9bf938533a9b690d8c4ace00ebe5c98/CHANGELOG.md#v354---2024-04-13>  
+  (because 3.5.5 and 3.5.6 were yanked)
 
 ### Upgraded
 
