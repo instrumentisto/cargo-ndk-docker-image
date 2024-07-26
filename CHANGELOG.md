@@ -15,6 +15,10 @@ All user visible changes to this project will be documented in this file. This p
 
 - [Rust] 1.80.0: <https://blog.rust-lang.org/2024/07/25/Rust-1.80.0.html>
 
+### Security updated
+
+- [Debian Linux] "bookworm" 20240722 (12.6): <https://github.com/docker-library/official-images/commit/62a03fd2a8fd79c245b11fb01e3e9d1be4214566>
+
 
 
 
