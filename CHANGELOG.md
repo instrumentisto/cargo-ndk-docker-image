@@ -6,13 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [3.5.4-ndkr27-rust1.81-r0] · 2024-09-06
-[3.5.4-ndkr27-rust1.81-r0]: /../../tree/3.5.4-ndkr27-rust1.81-r0
+## [3.5.4-ndkr27b-rust1.81-r0] · 2024-09-06
+[3.5.4-ndkr27b-rust1.81-r0]: /../../tree/3.5.4-ndkr27b-rust1.81-r0
 
-[Diff](/../../compare/3.5.4-ndkr27-rust1.80-r1...3.5.4-ndkr27-rust1.81-r0)
+[Diff](/../../compare/3.5.4-ndkr27-rust1.80-r1...3.5.4-ndkr27b-rust1.81-r0)
 
 ### Upgraded
 
+- [Android NDK] r27b: <https://github.com/android/ndk/wiki/Changelog-r27#r27b>
 - [Rust] 1.81.0: <https://blog.rust-lang.org/2024/09/05/Rust-1.81.0.html>
 
 ### Security updated
