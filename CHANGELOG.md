@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [main] · unreleased
-[main]: /../../tree/main
+## [3.5.4-ndkr27c-rust1.84-r0] · 2025-01-10
+[3.5.4-ndkr27c-rust1.84-r0]: /../../tree/3.5.4-ndkr27c-rust1.84-r0
 
-[Diff](/../../compare/3.5.4-ndkr27c-rust1.83-r0...main)
+[Diff](/../../compare/3.5.4-ndkr27c-rust1.83-r0...3.5.4-ndkr27c-rust1.84-r0)
+
+### Upgraded
+
+- [Rust] 1.84.0: <https://blog.rust-lang.org/2025/01/09/Rust-1.84.0.html>
 
 ### Security updated
 
