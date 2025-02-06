@@ -2,7 +2,7 @@ cargo-ndk Docker image
 ======================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/cargo-ndk-docker-image "Release")](https://github.com/instrumentisto/cargo-ndk-docker-image/releases)
-[![CI](https://github.com/instrumentisto/cargo-ndk-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/cargo-ndk-docker-image/actions?query=workflow%3ACI+branch%3Amain)
+[![CI](https://github.com/instrumentisto/cargo-ndk-docker-image/actions/workflows/ci.yml/badge.svg?branch=main "CI")](https://github.com/instrumentisto/cargo-ndk-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/cargo-ndk?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/cargo-ndk)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/cargo-ndk)
@@ -16,7 +16,7 @@ cargo-ndk Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.5.4-ndkr27c-rust1.84-r1`, `3.5.4-ndkr27c-rust1.84`, `3.5.4-ndkr27c`, `3.5-ndkr27c`, `3-ndkr27c`, `3.5.4`, `3.5`, `3`, `latest`][101]
+- [`3.5.4-ndkr28-rust1.84-r0`, `3.5.4-ndkr28-rust1.84`, `3.5.4-ndkr28`, `3.5-ndkr28`, `3-ndkr28`, `3.5.4`, `3.5`, `3`, `latest`][101]
 
 
 
