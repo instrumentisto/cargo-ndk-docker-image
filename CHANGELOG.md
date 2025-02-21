@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.5.4-ndkr28-rust1.85-r0] · 2025-02-21
+[3.5.4-ndkr28-rust1.85-r0]: /../../tree/3.5.4-ndkr28-rust1.85-r0
+
+[Diff](/../../compare/3.5.4-ndkr28-rust1.84-r0...3.5.4-ndkr28-rust1.85-r0)
+
+### Upgraded
+
+- [Rust] 1.85.0: <https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html>
+
+
+
+
 ## [3.5.4-ndkr28-rust1.84-r0] · 2025-02-06
 [3.5.4-ndkr28-rust1.84-r0]: /../../tree/3.5.4-ndkr28-rust1.84-r0
 
