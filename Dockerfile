@@ -2,7 +2,7 @@
 ARG rust_ver=1.86
 FROM rust:${rust_ver}-slim-bookworm
 
-ARG android_ndk_ver=r28
+ARG android_ndk_ver=r28b
 ARG cargo_ndk_ver=3.5.4
 ARG build_rev=0
 

@@ -6,9 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## main
+## [3.5.4-ndkr28b-rust1.86-r0] · 2025-04-22
+[3.5.4-ndkr28b-rust1.86-r0]: /../../tree/3.5.4-ndkr28b-rust1.86-r0
 
-[Diff](/../../compare/3.5.4-ndkr28-rust1.86-r0...main)
+[Diff](/../../compare/3.5.4-ndkr28-rust1.86-r0...3.5.4-ndkr28b-rust1.86-r0)
+
+### Upgraded
+
+- [Android NDK] r28b: <https://github.com/android/ndk/wiki/Changelog-r28#r28b>
 
 ### Security updated
 
