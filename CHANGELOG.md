@@ -6,6 +6,17 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/3.5.4-ndkr28c-rust1.88-r0...main)
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20250721 (12.11): <https://github.com/docker-library/official-images/commit/15cd3918b1baf779e4cb401440e7e442c14bb964>
+
+
+
+
 ## [3.5.4-ndkr28c-rust1.88-r0] · 2025-07-09
 [3.5.4-ndkr28c-rust1.88-r0]: /../../tree/3.5.4-ndkr28c-rust1.88-r0
 
