@@ -3,7 +3,7 @@ ARG rust_ver=1.88
 FROM rust:${rust_ver}-slim-bookworm
 
 ARG android_ndk_ver=r28c
-ARG cargo_ndk_ver=3.5.4
+ARG cargo_ndk_ver=4.0.0
 ARG build_rev=0
 
 
@@ -46,7 +46,7 @@ ENV ANDROID_NDK_HOME=/usr/local/android-ndk-${android_ndk_ver} \
 
 
 # Install cargo-ndk Cargo plugin
-RUN cargo install --version=${cargo_ndk_ver} cargo-ndk \
+RUN cargo install --version=${cargo_ndk_ver} --locked cargo-ndk \
     \
   # Cleanup unnecessary stuff
   && rm -rf /usr/local/cargo/registry/ \
