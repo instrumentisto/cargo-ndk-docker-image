@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [4.1.1-ndkr28c-rust1.88-r0] · 2025-08-07
+[4.1.1-ndkr28c-rust1.88-r0]: /../../tree/4.1.1-ndkr28c-rust1.88-r0
+
+[Diff](/../../compare/4.1.0-ndkr28c-rust1.88-r0...4.1.1-ndkr28c-rust1.88-r0)
+
+### Upgraded
+
+- [cargo-ndk] 4.1.1: <https://github.com/bbqsrc/cargo-ndk/blob/v4.1.1/CHANGELOG.md#v411---2025-08-06>
+
+
+
+
 ## [4.1.0-ndkr28c-rust1.88-r0] · 2025-08-07
 [4.1.0-ndkr28c-rust1.88-r0]: /../../tree/4.1.0-ndkr28c-rust1.88-r0
 
