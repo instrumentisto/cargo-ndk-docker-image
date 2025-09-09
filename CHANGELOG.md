@@ -6,6 +6,17 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/4.1.2-ndkr28c-rust1.89-r1...main)
+
+### Security updated
+
+- [Debian Linux] "trixie" 20250908 (13.1): <https://github.com/docker-library/official-images/commit/4c4536fafd07865578a0f2feab95a683eba7fa37>
+
+
+
+
 ## [4.1.2-ndkr28c-rust1.89-r1] · 2025-08-20
 [4.1.2-ndkr28c-rust1.89-r1]: /../../tree/4.1.2-ndkr28c-rust1.89-r1
 
