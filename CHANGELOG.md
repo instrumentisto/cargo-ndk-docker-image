@@ -6,9 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## main
+## [4.1.2-ndkr28c-rust1.90-r0] · 2025-09-18
+[4.1.2-ndkr28c-rust1.90-r0]: /../../tree/4.1.2-ndkr28c-rust1.90-r0
 
-[Diff](/../../compare/4.1.2-ndkr28c-rust1.89-r1...main)
+[Diff](/../../compare/4.1.2-ndkr28c-rust1.89-r1...4.1.2-ndkr28c-rust1.90-r0)
+
+### Upgraded
+
+- [Rust] 1.89.0: <https://blog.rust-lang.org/2025/09/18/Rust-1.90.0>
 
 ### Security updated
 
