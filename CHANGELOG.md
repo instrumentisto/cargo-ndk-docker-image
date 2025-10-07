@@ -6,9 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## main
+## [4.1.2-ndkr29-rust1.90-r0] · 2025-10-07
+[4.1.2-ndkr29-rust1.90-r0]: /../../tree/4.1.2-ndkr29-rust1.90-r0
 
-[Diff](/../../compare/4.1.2-ndkr28c-rust1.90-r0...main)
+[Diff](/../../compare/4.1.2-ndkr28c-rust1.90-r0...4.1.2-ndkr29-rust1.90-r0)
+
+### Upgraded
+
+- [Android NDK] r29: <https://github.com/android/ndk/wiki/Changelog-r29#changes>
 
 ### Security updated
 
