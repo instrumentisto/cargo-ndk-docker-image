@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/rust
-ARG rust_ver=1.90
+ARG rust_ver=1.91
 FROM rust:${rust_ver}-slim-bookworm
 
 ARG android_ndk_ver=r29
