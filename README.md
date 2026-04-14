@@ -14,6 +14,13 @@ cargo-ndk Docker image
 
 
 
+## Status
+
+__PROJECT IS CLOSED AND ARCHIVED. NO MAINTAINING WILL BE CONTINUED.__
+
+
+
+
 ## Supported tags and respective `Dockerfile` links
 
 - [`4.1.2-ndkr29-rust1.94-r1`, `4.1.2-ndkr29-rust1.94`, `4.1.2-ndkr29`, `4.1-ndkr29`, `4-ndkr29`, `4.1.2`, `4.1`, `4`, `latest`][101]
